@@ -28,6 +28,7 @@
             display: flex;
             padding-top: 10px;
             font-size: 15px;
+            font-weight: bold;
         }
 
         .card__body {
@@ -144,6 +145,23 @@
 
         .univ__title {
             font-size: 15px;
+            font-weight: bold;
+            margin-bottom: 8px;
+            margin-top: 10px;
+        }
+
+        .company__name {
+            color: gray;
+        }
+
+        .title__wrapper {
+            color: gray;
+            font-weight: bold;
+        }
+
+        .field__name {
+            color: gray;
+            font-weight: bold;
         }
     </style>
     <title>CV Porfolio</title>
@@ -171,7 +189,7 @@
         </header>
         <section>
             <div>
-                <h4>Skills</h4>
+                <h4 class="title__wrapper">Skills</h4>
                 <h6>Tech Stack</h6>
                 <div class="container__item">
                     <div class="skill__item ">
@@ -231,7 +249,7 @@
         </section>
         <section>
             <div>
-                <h4>Projects</h4>
+                <h4 class="title__wrapper">Projects</h4>
                 <div class="container_wrapper_project">
                     <div class="container__project">
                         <div class="img__project">
@@ -294,10 +312,10 @@
         <br>
         <section>
             <div>
-                <h4>Work Experience</h4>
+                <h4 class="title__wrapper">Work Experience</h4>
                 <div class="wrapper__job">
                     <div>
-                        <div class="job__title">Job Title <span>Company Name</span></div>
+                        <div class="job__title">Job Title <span class="company__name"> . Company Name</span></div>
                         <div class="detail__date">Apr 2018 - Jan 2020</div>
                     </div>
                     <div class="svg__wrapper">
@@ -313,7 +331,7 @@
                 </div>
                 <div class="wrapper__job">
                     <div>
-                        <div class="job__title">Job Title <span>Company Name</span></div>
+                        <div class="job__title">Job Title <span class="company__name">Company Name</span></div>
                         <div class="detail__date">Apr 2018 - Jan 2020</div>
                     </div>
                     <div class="svg__wrapper">
@@ -329,7 +347,7 @@
                 </div>
                 <div class="wrapper__job">
                     <div>
-                        <div class="job__title">Job Title <span>Company Name</span></div>
+                        <div class="job__title">Job Title <span class="company__name">Company Name</span></div>
                         <div class="detail__date">Apr 2018 - Jan 2020</div>
                     </div>
                     <div class="svg__wrapper">
@@ -345,7 +363,7 @@
                 </div>
                 <div class="wrapper__job">
                     <div>
-                        <div class="job__title">Job Title <span>Company Name</span></div>
+                        <div class="job__title">Job Title <span class="company__name">Company Name</span></div>
                         <div class="detail__date">Apr 2018 - Jan 2020</div>
                     </div>
                     <div class="svg__wrapper">
@@ -364,7 +382,7 @@
 
         <section>
             <div>
-                <h4>Education</h4>
+                <h4 class="title__wrapper">Education</h4>
                 <div class="wrapper__education">
                     <div class="svg__wrapper">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
@@ -374,7 +392,7 @@
                     </div>
                     <div class="wrapper__univ">
                         <div class="univ__title">University or School</div>
-                        <div>Field of study</div>
+                        <div class="field__name">Field of study</div>
                     </div>
                     <div class="date__graduation">Apr 2018 - Jan 2020</div>
                 </div>
@@ -387,7 +405,7 @@
                     </div>
                     <div class="wrapper__univ">
                         <div class="univ__title">University or School</div>
-                        <div>Field of study</div>
+                        <div class="field__name">Field of study</div>
                     </div>
                     <div class="date__graduation">Apr 2018 - Jan 2020</div>
                 </div>
